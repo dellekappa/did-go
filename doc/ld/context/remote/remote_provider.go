@@ -15,7 +15,7 @@ import (
 	"os"
 	"time"
 
-	ldcontext "github.com/trustbloc/did-go/doc/ld/context"
+	ldcontext "github.com/dellekappa/did-go/doc/ld/context"
 )
 
 const defaultTimeout = time.Minute

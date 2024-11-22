@@ -11,7 +11,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/trustbloc/did-go/doc/ld/processor"
+	"github.com/dellekappa/did-go/doc/ld/processor"
 )
 
 const (

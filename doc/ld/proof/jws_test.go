@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/trustbloc/did-go/doc/ld/testutil"
-	afgotime "github.com/trustbloc/did-go/doc/util/time"
+	"github.com/dellekappa/did-go/doc/ld/testutil"
+	afgotime "github.com/dellekappa/did-go/doc/util/time"
 )
 
 func Test_getJWTHeader(t *testing.T) {

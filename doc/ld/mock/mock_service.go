@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package mock
 
 import (
-	"github.com/trustbloc/did-go/doc/ld/context"
-	"github.com/trustbloc/did-go/doc/ld/context/remote"
-	"github.com/trustbloc/did-go/doc/ld/store"
+	"github.com/dellekappa/did-go/doc/ld/context"
+	"github.com/dellekappa/did-go/doc/ld/context/remote"
+	"github.com/dellekappa/did-go/doc/ld/store"
 )
 
 // Service is a mock JSON-LD service.

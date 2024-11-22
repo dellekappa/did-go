@@ -12,13 +12,13 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/dellekappa/did-go/pkg/canonicalizer"
+	jwkapi "github.com/dellekappa/kcms-go/doc/jose/jwk"
+	"github.com/dellekappa/kcms-go/doc/jose/jwk/jwksupport"
 	"github.com/stretchr/testify/require"
-	"github.com/trustbloc/did-go/pkg/canonicalizer"
-	jwkapi "github.com/trustbloc/kms-go/doc/jose/jwk"
-	"github.com/trustbloc/kms-go/doc/jose/jwk/jwksupport"
 
-	"github.com/trustbloc/did-go/doc/did"
-	"github.com/trustbloc/did-go/method/jwk"
+	"github.com/dellekappa/did-go/doc/did"
+	"github.com/dellekappa/did-go/method/jwk"
 )
 
 func TestCreate(t *testing.T) {

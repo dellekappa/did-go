@@ -16,8 +16,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/trustbloc/did-go/doc/ld/context/remote"
-	"github.com/trustbloc/did-go/doc/ld/testutil"
+	"github.com/dellekappa/did-go/doc/ld/context/remote"
+	"github.com/dellekappa/did-go/doc/ld/testutil"
 )
 
 func TestProvider_Contexts(t *testing.T) {

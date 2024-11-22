@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/trustbloc/did-go/doc/did"
+	"github.com/dellekappa/did-go/doc/did"
 )
 
 const (

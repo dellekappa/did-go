@@ -10,9 +10,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/trustbloc/did-go/doc/ld/processor"
-	"github.com/trustbloc/did-go/doc/ld/proof"
-	"github.com/trustbloc/did-go/doc/signature/api"
+	"github.com/dellekappa/did-go/doc/ld/processor"
+	"github.com/dellekappa/did-go/doc/ld/proof"
+	"github.com/dellekappa/did-go/doc/signature/api"
 )
 
 // keyResolver encapsulates key resolution.

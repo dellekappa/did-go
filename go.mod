@@ -2,20 +2,20 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/trustbloc/did-go
+module github.com/dellekappa/did-go
 
 go 1.22
 
 require (
 	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce
 	github.com/cenkalti/backoff/v4 v4.1.3
+	github.com/dellekappa/kcms-go v0.0.0-20241122161808-0dcd0095fb52
 	github.com/go-jose/go-jose/v3 v3.0.3
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.6.0
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/multiformats/go-multibase v0.1.1
 	github.com/piprate/json-gold v0.5.1-0.20230111113000-6ddbe6e6f19f
 	github.com/stretchr/testify v1.8.2
-	github.com/trustbloc/kms-go v1.1.2
 	github.com/xeipuuv/gojsonschema v1.2.0
 )
 
@@ -45,5 +45,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
-
-replace github.com/trustbloc/kms-go => github.com/dellekappa/kms-go v0.0.0-20241118233542-5ace9bb6d6bf

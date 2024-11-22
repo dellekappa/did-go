@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/trustbloc/kms-go/spi/storage"
+	"github.com/dellekappa/kcms-go/spi/storage"
 )
 
 const (

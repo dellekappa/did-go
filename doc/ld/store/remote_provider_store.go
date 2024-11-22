@@ -13,7 +13,7 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/google/uuid"
 
-	"github.com/trustbloc/kms-go/spi/storage"
+	"github.com/dellekappa/kcms-go/spi/storage"
 )
 
 const (

@@ -9,7 +9,7 @@ package canonicalizer
 import (
 	"encoding/json"
 
-	"github.com/trustbloc/did-go/pkg/internal/jsoncanonicalizer"
+	"github.com/dellekappa/did-go/pkg/internal/jsoncanonicalizer"
 )
 
 // MarshalCanonical is using JCS RFC canonicalization.

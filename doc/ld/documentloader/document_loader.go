@@ -12,11 +12,11 @@ import (
 
 	jsonld "github.com/piprate/json-gold/ld"
 
-	"github.com/trustbloc/kms-go/spi/storage"
+	"github.com/dellekappa/kcms-go/spi/storage"
 
-	ldcontext "github.com/trustbloc/did-go/doc/ld/context"
-	"github.com/trustbloc/did-go/doc/ld/context/embed"
-	ldstore "github.com/trustbloc/did-go/doc/ld/store"
+	ldcontext "github.com/dellekappa/did-go/doc/ld/context"
+	"github.com/dellekappa/did-go/doc/ld/context/embed"
+	ldstore "github.com/dellekappa/did-go/doc/ld/store"
 )
 
 // ErrContextNotFound is returned when JSON-LD context document is not found in the underlying storage.

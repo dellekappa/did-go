@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/trustbloc/did-go/vdr/api"
+	"github.com/dellekappa/did-go/vdr/api"
 )
 
 var _ api.VDR = (*VDR)(nil) // verify interface compliance

@@ -16,9 +16,9 @@ import (
 
 	jsonld "github.com/piprate/json-gold/ld"
 
-	"github.com/trustbloc/kms-go/spi/storage"
+	"github.com/dellekappa/kcms-go/spi/storage"
 
-	ldcontext "github.com/trustbloc/did-go/doc/ld/context"
+	ldcontext "github.com/dellekappa/did-go/doc/ld/context"
 )
 
 const (

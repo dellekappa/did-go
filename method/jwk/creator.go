@@ -10,11 +10,11 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/trustbloc/did-go/pkg/canonicalizer"
-	"github.com/trustbloc/kms-go/doc/jose/jwk"
+	"github.com/dellekappa/did-go/pkg/canonicalizer"
+	"github.com/dellekappa/kcms-go/doc/jose/jwk"
 
-	"github.com/trustbloc/did-go/doc/did"
-	vdrapi "github.com/trustbloc/did-go/vdr/api"
+	"github.com/dellekappa/did-go/doc/did"
+	vdrapi "github.com/dellekappa/did-go/vdr/api"
 )
 
 // Create new DID document for didDoc.

@@ -12,11 +12,11 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/trustbloc/kms-go/doc/jose/jwk/jwksupport"
-	"github.com/trustbloc/kms-go/doc/util/fingerprint"
+	"github.com/dellekappa/kcms-go/doc/jose/jwk/jwksupport"
+	"github.com/dellekappa/kcms-go/doc/util/fingerprint"
 
-	"github.com/trustbloc/did-go/doc/did"
-	vdrapi "github.com/trustbloc/did-go/vdr/api"
+	"github.com/dellekappa/did-go/doc/did"
+	vdrapi "github.com/dellekappa/did-go/vdr/api"
 )
 
 // Read expands did:key value to a DID document.

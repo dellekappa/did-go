@@ -14,9 +14,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	ldcontext "github.com/trustbloc/did-go/doc/ld/context"
-	"github.com/trustbloc/did-go/doc/ld/processor"
-	"github.com/trustbloc/did-go/doc/ld/testutil"
+	ldcontext "github.com/dellekappa/did-go/doc/ld/context"
+	"github.com/dellekappa/did-go/doc/ld/processor"
+	"github.com/dellekappa/did-go/doc/ld/testutil"
 )
 
 const defaultAlgorithm = "URDNA2015"

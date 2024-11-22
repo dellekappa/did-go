@@ -14,7 +14,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/trustbloc/kms-go/doc/util/fingerprint"
+	"github.com/dellekappa/kcms-go/doc/util/fingerprint"
 )
 
 func TestReadInvalid(t *testing.T) {

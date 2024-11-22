@@ -9,7 +9,7 @@ package embed
 import (
 	_ "embed" //nolint:gci // required for go:embed
 
-	ldcontext "github.com/trustbloc/did-go/doc/ld/context"
+	ldcontext "github.com/dellekappa/did-go/doc/ld/context"
 )
 
 // nolint:gochecknoglobals // required for go:embed

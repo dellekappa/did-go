@@ -9,10 +9,10 @@ package api
 import (
 	"time"
 
-	"github.com/trustbloc/did-go/doc/ld/proof"
-	"github.com/trustbloc/kms-go/doc/jose/jwk"
+	"github.com/dellekappa/did-go/doc/ld/proof"
+	"github.com/dellekappa/kcms-go/doc/jose/jwk"
 
-	"github.com/trustbloc/did-go/doc/ld/processor"
+	"github.com/dellekappa/did-go/doc/ld/processor"
 )
 
 // Context holds signing options and private key.

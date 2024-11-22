@@ -17,8 +17,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	didapi "github.com/trustbloc/did-go/doc/did"
-	vdrapi "github.com/trustbloc/did-go/vdr/api"
+	didapi "github.com/dellekappa/did-go/doc/did"
+	vdrapi "github.com/dellekappa/did-go/vdr/api"
 )
 
 const (

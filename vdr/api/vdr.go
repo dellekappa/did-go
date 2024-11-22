@@ -10,7 +10,7 @@ package api
 import (
 	"errors"
 
-	"github.com/trustbloc/did-go/doc/did"
+	"github.com/dellekappa/did-go/doc/did"
 )
 
 // ErrNotFound is returned when a DID resolver does not find the DID.

@@ -16,7 +16,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/piprate/json-gold/ld"
 
-	"github.com/trustbloc/did-go/doc/util/maphelpers"
+	"github.com/dellekappa/did-go/doc/util/maphelpers"
 )
 
 const (

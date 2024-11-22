@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package signature
 
 import (
-	"github.com/trustbloc/did-go/doc/ld/processor"
-	"github.com/trustbloc/did-go/doc/signature/api"
+	"github.com/dellekappa/did-go/doc/ld/processor"
+	"github.com/dellekappa/did-go/doc/signature/api"
 )
 
 // MockSuite mocks api.SignatureSuite.

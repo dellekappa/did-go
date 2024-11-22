@@ -13,12 +13,12 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/dellekappa/kcms-go/spi/kms"
 	"github.com/stretchr/testify/require"
-	"github.com/trustbloc/kms-go/spi/kms"
 
-	"github.com/trustbloc/did-go/doc/ld/processor"
-	"github.com/trustbloc/did-go/doc/ld/proof"
-	"github.com/trustbloc/did-go/doc/signature/api"
+	"github.com/dellekappa/did-go/doc/ld/processor"
+	"github.com/dellekappa/did-go/doc/ld/proof"
+	"github.com/dellekappa/did-go/doc/signature/api"
 )
 
 //go:embed testdata/valid_doc.jsonld

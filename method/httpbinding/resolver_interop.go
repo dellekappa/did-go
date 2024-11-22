@@ -12,8 +12,8 @@ package httpbinding
 import (
 	"strings"
 
-	diddoc "github.com/trustbloc/did-go/doc/did"
-	"github.com/trustbloc/kms-go/doc/util/fingerprint"
+	diddoc "github.com/dellekappa/did-go/doc/did"
+	"github.com/dellekappa/kcms-go/doc/util/fingerprint"
 )
 
 // interopPreprocess in a ACAPyInterop build, this converts public sov did docs into a usable format.

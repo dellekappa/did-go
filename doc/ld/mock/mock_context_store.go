@@ -13,11 +13,11 @@ import (
 
 	jsonld "github.com/piprate/json-gold/ld"
 
-	"github.com/trustbloc/kms-go/spi/storage"
+	"github.com/dellekappa/kcms-go/spi/storage"
 
-	"github.com/trustbloc/did-go/doc/ld/context"
-	"github.com/trustbloc/did-go/doc/ld/store"
-	mockstorage "github.com/trustbloc/did-go/legacy/mock/storage"
+	"github.com/dellekappa/did-go/doc/ld/context"
+	"github.com/dellekappa/did-go/doc/ld/store"
+	mockstorage "github.com/dellekappa/did-go/legacy/mock/storage"
 )
 
 // ContextStore is a mock JSON-LD context store.

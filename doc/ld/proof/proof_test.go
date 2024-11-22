@@ -13,7 +13,7 @@ import (
 	"github.com/multiformats/go-multibase"
 	"github.com/stretchr/testify/require"
 
-	afgotime "github.com/trustbloc/did-go/doc/util/time"
+	afgotime "github.com/dellekappa/did-go/doc/util/time"
 )
 
 const (

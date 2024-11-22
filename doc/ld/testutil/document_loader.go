@@ -13,11 +13,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	ldcontext "github.com/trustbloc/did-go/doc/ld/context"
-	"github.com/trustbloc/did-go/doc/ld/documentloader"
-	mockldstore "github.com/trustbloc/did-go/doc/ld/mock"
-	"github.com/trustbloc/did-go/doc/ld/processor"
-	ldstore "github.com/trustbloc/did-go/doc/ld/store"
+	ldcontext "github.com/dellekappa/did-go/doc/ld/context"
+	"github.com/dellekappa/did-go/doc/ld/documentloader"
+	mockldstore "github.com/dellekappa/did-go/doc/ld/mock"
+	"github.com/dellekappa/did-go/doc/ld/processor"
+	ldstore "github.com/dellekappa/did-go/doc/ld/store"
 )
 
 // nolint:gochecknoglobals // required for go:embed

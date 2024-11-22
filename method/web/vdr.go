@@ -9,8 +9,8 @@ package web
 import (
 	"fmt"
 
-	diddoc "github.com/trustbloc/did-go/doc/did"
-	vdrapi "github.com/trustbloc/did-go/vdr/api"
+	diddoc "github.com/dellekappa/did-go/doc/did"
+	vdrapi "github.com/dellekappa/did-go/vdr/api"
 )
 
 const (

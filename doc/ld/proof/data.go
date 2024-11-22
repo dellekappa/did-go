@@ -9,7 +9,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/trustbloc/did-go/doc/ld/processor"
+	"github.com/dellekappa/did-go/doc/ld/processor"
 )
 
 const jsonldContext = "@context"

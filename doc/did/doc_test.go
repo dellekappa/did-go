@@ -20,15 +20,15 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcutil/base58"
+	"github.com/dellekappa/did-go/doc/internal/mock/signature"
 	gojose "github.com/go-jose/go-jose/v3"
 	"github.com/stretchr/testify/require"
-	"github.com/trustbloc/did-go/doc/internal/mock/signature"
 
-	"github.com/trustbloc/did-go/doc/did/endpoint"
-	"github.com/trustbloc/did-go/doc/ld/testutil"
-	"github.com/trustbloc/did-go/doc/signature/api"
-	"github.com/trustbloc/did-go/doc/signature/signer"
-	"github.com/trustbloc/kms-go/doc/jose/jwk"
+	"github.com/dellekappa/did-go/doc/did/endpoint"
+	"github.com/dellekappa/did-go/doc/ld/testutil"
+	"github.com/dellekappa/did-go/doc/signature/api"
+	"github.com/dellekappa/did-go/doc/signature/signer"
+	"github.com/dellekappa/kcms-go/doc/jose/jwk"
 )
 
 const pemPK = `-----BEGIN PUBLIC KEY-----

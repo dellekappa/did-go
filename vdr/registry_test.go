@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/trustbloc/did-go/doc/did"
-	vdrapi "github.com/trustbloc/did-go/vdr/api"
-	mockvdr "github.com/trustbloc/did-go/vdr/mock"
+	"github.com/dellekappa/did-go/doc/did"
+	vdrapi "github.com/dellekappa/did-go/vdr/api"
+	mockvdr "github.com/dellekappa/did-go/vdr/mock"
 )
 
 func TestRegistry_New(t *testing.T) {

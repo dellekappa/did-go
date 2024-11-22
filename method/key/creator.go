@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/trustbloc/kms-go/doc/util/fingerprint"
-	"github.com/trustbloc/kms-go/util/cryptoutil"
+	"github.com/dellekappa/kcms-go/doc/util/fingerprint"
+	"github.com/dellekappa/kcms-go/util/cryptoutil"
 
-	"github.com/trustbloc/did-go/doc/did"
-	vdrapi "github.com/trustbloc/did-go/vdr/api"
+	"github.com/dellekappa/did-go/doc/did"
+	vdrapi "github.com/dellekappa/did-go/vdr/api"
 )
 
 const (

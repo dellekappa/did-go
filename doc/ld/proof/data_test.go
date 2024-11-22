@@ -14,9 +14,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/trustbloc/did-go/doc/ld/processor"
-	"github.com/trustbloc/did-go/doc/ld/testutil"
-	afgotime "github.com/trustbloc/did-go/doc/util/time"
+	"github.com/dellekappa/did-go/doc/ld/processor"
+	"github.com/dellekappa/did-go/doc/ld/testutil"
+	afgotime "github.com/dellekappa/did-go/doc/util/time"
 )
 
 func TestCreateVerifyHashAlgorithm(t *testing.T) {

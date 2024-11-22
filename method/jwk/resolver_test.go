@@ -11,11 +11,11 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/dellekappa/did-go/pkg/canonicalizer"
 	"github.com/stretchr/testify/require"
-	"github.com/trustbloc/did-go/pkg/canonicalizer"
 
-	"github.com/trustbloc/did-go/doc/did"
-	"github.com/trustbloc/did-go/method/jwk"
+	"github.com/dellekappa/did-go/doc/did"
+	"github.com/dellekappa/did-go/method/jwk"
 )
 
 func TestReadInvalidDID(t *testing.T) {

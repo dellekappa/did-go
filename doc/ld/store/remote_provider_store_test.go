@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/trustbloc/kms-go/spi/storage"
+	"github.com/dellekappa/kcms-go/spi/storage"
 
-	mockstorage "github.com/trustbloc/did-go/legacy/mock/storage"
+	mockstorage "github.com/dellekappa/did-go/legacy/mock/storage"
 )
 
 func TestNewRemoteProviderStore(t *testing.T) {

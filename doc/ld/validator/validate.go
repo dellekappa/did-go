@@ -14,8 +14,8 @@ import (
 
 	"github.com/piprate/json-gold/ld"
 
-	"github.com/trustbloc/did-go/doc/ld/processor"
-	"github.com/trustbloc/did-go/doc/util/json"
+	"github.com/dellekappa/did-go/doc/ld/processor"
+	"github.com/dellekappa/did-go/doc/util/json"
 )
 
 type validateOpts struct {

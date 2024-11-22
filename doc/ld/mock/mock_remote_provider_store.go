@@ -9,10 +9,10 @@ package mock
 import (
 	"github.com/google/uuid"
 
-	"github.com/trustbloc/kms-go/spi/storage"
+	"github.com/dellekappa/kcms-go/spi/storage"
 
-	"github.com/trustbloc/did-go/doc/ld/store"
-	mockstorage "github.com/trustbloc/did-go/legacy/mock/storage"
+	"github.com/dellekappa/did-go/doc/ld/store"
+	mockstorage "github.com/dellekappa/did-go/legacy/mock/storage"
 )
 
 // RemoteProviderStore is a mock remote JSON-LD context provider store.

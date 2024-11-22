@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/trustbloc/did-go/doc/ld/testutil"
+	"github.com/dellekappa/did-go/doc/ld/testutil"
 )
 
 func TestWithDocumentLoader(t *testing.T) {

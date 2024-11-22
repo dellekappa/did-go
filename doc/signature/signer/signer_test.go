@@ -13,9 +13,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sigmock "github.com/trustbloc/did-go/doc/internal/mock/signature"
-	"github.com/trustbloc/did-go/doc/ld/proof"
-	"github.com/trustbloc/did-go/doc/ld/testutil"
+	sigmock "github.com/dellekappa/did-go/doc/internal/mock/signature"
+	"github.com/dellekappa/did-go/doc/ld/proof"
+	"github.com/dellekappa/did-go/doc/ld/testutil"
 )
 
 const signatureType = "Ed25519Signature2018"

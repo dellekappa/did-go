@@ -14,10 +14,10 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcutil/base58"
+	"github.com/dellekappa/kcms-go/doc/jose/jwk/jwksupport"
 	"github.com/stretchr/testify/require"
-	"github.com/trustbloc/kms-go/doc/jose/jwk/jwksupport"
 
-	"github.com/trustbloc/did-go/doc/did"
+	"github.com/dellekappa/did-go/doc/did"
 )
 
 func TestBuild(t *testing.T) {

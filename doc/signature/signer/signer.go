@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/trustbloc/did-go/doc/ld/processor"
-	"github.com/trustbloc/did-go/doc/ld/proof"
-	"github.com/trustbloc/did-go/doc/signature/api"
+	"github.com/dellekappa/did-go/doc/ld/processor"
+	"github.com/dellekappa/did-go/doc/ld/proof"
+	"github.com/dellekappa/did-go/doc/signature/api"
 )
 
 const defaultProofPurpose = "assertionMethod"

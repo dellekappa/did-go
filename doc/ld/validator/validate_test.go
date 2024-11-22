@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	ldcontext "github.com/trustbloc/did-go/doc/ld/context"
-	ldloader "github.com/trustbloc/did-go/doc/ld/documentloader"
-	ldtestutil "github.com/trustbloc/did-go/doc/ld/testutil"
+	ldcontext "github.com/dellekappa/did-go/doc/ld/context"
+	ldloader "github.com/dellekappa/did-go/doc/ld/documentloader"
+	ldtestutil "github.com/dellekappa/did-go/doc/ld/testutil"
 )
 
 //nolint:gochecknoglobals

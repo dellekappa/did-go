@@ -20,15 +20,15 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcutil/base58"
+	"github.com/dellekappa/kcms-go/doc/jose/jwk"
 	"github.com/multiformats/go-multibase"
-	"github.com/trustbloc/kms-go/doc/jose/jwk"
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/trustbloc/did-go/doc/did/endpoint"
-	"github.com/trustbloc/did-go/doc/ld/processor"
-	sigproof "github.com/trustbloc/did-go/doc/ld/proof"
-	"github.com/trustbloc/did-go/doc/signature/api"
-	"github.com/trustbloc/did-go/doc/signature/verifier"
+	"github.com/dellekappa/did-go/doc/did/endpoint"
+	"github.com/dellekappa/did-go/doc/ld/processor"
+	sigproof "github.com/dellekappa/did-go/doc/ld/proof"
+	"github.com/dellekappa/did-go/doc/signature/api"
+	"github.com/dellekappa/did-go/doc/signature/verifier"
 )
 
 const (
