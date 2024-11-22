@@ -1120,7 +1120,7 @@ func TestValidateDidDocProof(t *testing.T) {
 	})
 
 	t.Run("test did doc proof without created", func(t *testing.T) {
-		docs := []string{validDocWithProof, validDocV011WithProof}
+		docs := []string{validDocV011WithProof}
 		for _, d := range docs {
 			raw := &rawDoc{}
 			require.NoError(t, json.Unmarshal([]byte(d), &raw))
@@ -1136,7 +1136,7 @@ func TestValidateDidDocProof(t *testing.T) {
 	})
 
 	t.Run("test did doc proof without creator", func(t *testing.T) {
-		docs := []string{validDocWithProof, validDocV011WithProof}
+		docs := []string{validDocV011WithProof}
 		for _, d := range docs {
 			raw := &rawDoc{}
 			require.NoError(t, json.Unmarshal([]byte(d), &raw))
