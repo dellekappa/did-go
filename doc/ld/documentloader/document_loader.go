@@ -9,6 +9,7 @@ package documentloader
 import (
 	"errors"
 	"fmt"
+	"strings"
 
 	jsonld "github.com/piprate/json-gold/ld"
 
@@ -109,16 +110,50 @@ func (l *DocumentLoader) LoadDocument(u string) (*jsonld.RemoteDocument, error) 
 			return nil, fmt.Errorf("load document: %w", err)
 		}
 
-		if l.remoteDocumentLoader == nil { // fetching from the remote URL is disabled
-			return nil, ErrContextNotFound
-		}
+		/*
+			if l.remoteDocumentLoader == nil { // fetching from the remote URL is disabled
+				return nil, ErrContextNotFound
+			}
 
-		return l.loadDocumentFromURL(u)
+			return l.loadDocumentFromURL(u)
+		*/
+
+		return l.loadRemoteDocument(u)
 	}
 
 	return rd, nil
 }
 
+func (l *DocumentLoader) loadRemoteDocument(u string) (*jsonld.RemoteDocument, error) {
+	if !strings.HasPrefix(u, "http://") && !strings.HasPrefix(u, "https://") {
+		doc, err := jsonld.DocumentFromReader(strings.NewReader(u))
+		if err != nil {
+			return nil, fmt.Errorf("parse document from reader: %w", err)
+		}
+
+		return &jsonld.RemoteDocument{
+			DocumentURL: u,
+			Document:    doc,
+		}, nil
+	}
+
+	if l.remoteDocumentLoader == nil { // fetching from the remote URL is disabled
+		return nil, ErrContextNotFound
+	}
+
+	rd, err := l.remoteDocumentLoader.LoadDocument(u)
+	if err != nil {
+		return nil, fmt.Errorf("load remote context document: %w", err)
+	}
+
+	if err = l.store.Put(u, rd); err != nil {
+		return nil, fmt.Errorf("save loaded document: %w", err)
+	}
+
+	return rd, nil
+}
+
+/*
 func (l *DocumentLoader) loadDocumentFromURL(u string) (*jsonld.RemoteDocument, error) {
 	rd, err := l.remoteDocumentLoader.LoadDocument(u)
 	if err != nil {
@@ -131,6 +166,7 @@ func (l *DocumentLoader) loadDocumentFromURL(u string) (*jsonld.RemoteDocument, 
 
 	return rd, nil
 }
+*/
 
 type documentLoaderOpts struct {
 	remoteDocumentLoader jsonld.DocumentLoader
